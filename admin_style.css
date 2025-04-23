@@ -1,0 +1,11 @@
+#jrs_post_count_report { width: 98%; max-width: 800px; margin: 10em auto 10em auto; }
+#jrs_post_count_report table { border-collapse: collapse; border: ridge 1px; }
+#jrs_post_count_report table tr {  }
+#jrs_post_count_report table tr:nth-child(even) { background-color: #fff; }
+#jrs_post_count_report table tr th,
+#jrs_post_count_report table tr td { font-size: 14px; line-height: 18px; padding: 10px 15px 10px 15px; border: solid 1px #999; }
+
+#jrs_post_count_report table tr td.post_id,
+#jrs_post_count_report table tr td.post_count { text-align: center; }
+
+#jrs_post_count_report .to_top { position: fixed; bottom: 3em; right: 3em; }
